@@ -446,6 +446,7 @@ a.readmore_bt {
      position:absolute;
      top: -4px;
      left: 20px;
+     z-index: 10000;
 }
 nav.main-menu {
      float: right;
@@ -1556,7 +1557,7 @@ ul.social_icon li a:hover {
 /** contact section **/
 #map {
      height: 100%;
-     min-height: 670px;
+     min-height: 200px;
 }
 .white {
      color: rgb(255, 255, 255);
